@@ -55,8 +55,7 @@ def KorEx_Tollgates_inOut(str_key, str_Tollgate, str_inOut = "None"):
     # url = "https://www.bigdata-transportation.kr/api"
     key = str_key
 
-    if str_inOut == "None":
-        str_inOut = ""
+    if str_inOut == "None": str_inOut = ""
 
     params = "?" + urlencode({
         quote_plus("apiKey") : key

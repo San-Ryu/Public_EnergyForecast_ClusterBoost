@@ -26,12 +26,7 @@ from sklearn.metrics import (mean_absolute_error
                              , mean_squared_error
                              , mean_squared_log_error
                              , r2_score)
-#endregion Module_Import
 
-#region List
-#endregion List
-
-#region Analysis
 ## Descriptive Staticstic
 ## 기술통계량
 ## Input
@@ -43,11 +38,11 @@ from sklearn.metrics import (mean_absolute_error
 def print_desc_statistic(df_tar, col_tar):
     ## Columns은 Domain별로 맞출 것
     print("=============== Descriptive Statistic ===============")
-    print("Min of tar : " + str(np.min(df_tar[col_tar])))
-    print("Std of tar : " + str(np.std(df_tar[col_tar])))
-    print("Median of tar : " + str(np.median(df_tar[col_tar])))
-    print("Mean of tar : " + str(np.mean(df_tar[col_tar])))
-    print("Max of tar : " + str(np.max(df_tar[col_tar])))
+    print("Min : " + str(np.min(df_tar[col_tar])))
+    print("Std : " + str(np.std(df_tar[col_tar])))
+    print("Med : " + str(np.median(df_tar[col_tar])))
+    print("Mean : " + str(np.mean(df_tar[col_tar])))
+    print("Max : " + str(np.max(df_tar[col_tar])))
     print("=============== Descriptive Statistic ===============")
 
     print("===============  IQR Range =============== ")
@@ -64,8 +59,7 @@ def print_desc_statistic(df_tar, col_tar):
 ## IQR : Q3 - Q1의 차이를 의미
 ## 이상치 : Q3 + 1.5 * IQR보다 높거나 Q1 - 1.5 * IQR보다 낮은 값을 의미
 def find_outlier_Usages(df_tar, col_tar):
-    q3_df_raw = df_tar[col_tar].quantile(0.90)
-    q1_df_raw = df_tar[col_tar].quantile(0.25)    
+    q1_df_raw, q3_df_raw = df_tar[col_tar].quantile(0.90), df_tar[col_tar].quantile(0.25)    
     iqr_df_raw = q3_df_raw - q1_df_raw
     
     ## IQR 범위
@@ -108,4 +102,3 @@ def print_residual(df_tar):
     print(res)
 
     # return resWW
-#endregion Analysis

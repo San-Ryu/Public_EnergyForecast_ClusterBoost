@@ -58,9 +58,9 @@ from Src_Dev_Common import (
     COM_Analysis as com_Analysis,
     COM_Clustering as com_clustering,
     COM_Datetime as com_date,
-    KMA_Weather as com_KMA,
-    KECO_AirKor as com_KECO,
-    KASI_Holiday as com_Holi,
+    Data_KASI_Holiday as com_Holi,
+    Data_KECO_AirKor as com_KECO,
+    Data_KMA_Weather as com_KMA,
     KIER_Usage_M02 as com_KIER_M02
 )
 #endregion Module_Import
