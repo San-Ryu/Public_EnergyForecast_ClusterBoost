@@ -13,7 +13,7 @@ https://doi.org/10.1038/s41598-025-23978-w
   2) 군집화를 통해 다수의 세대에 걸친 에너지 사용 패턴을 분류, 시계열 모델에 적용하여 모델 성능 및 분석 업무에 대한 효율성 강화
 
 ### - 프로젝트 개요
-<img width="1004" height="727" alt="Image" src="https://github.com/user-attachments/assets/51ef8ca9-8ce8-48d7-954a-86fa0d90e72c" />
+<img width="2003" height="1182" alt="Image" src="https://github.com/user-attachments/assets/ea7d65ee-aa0b-4577-8b3d-35b73d4c02fa" />
 
 모듈의 구성은 아래와 같음  
 1) 데이터 수집 모듈  
@@ -97,10 +97,10 @@ https://doi.org/10.1038/s41598-025-23978-w
 - Best Model : CatBoost, LightGBM 파생 모델  
 
 <대조군과 최종 Model(Ensemble)의 예측 결과 시각화>
-<img width="3273" height="1168" alt="Image" src="https://github.com/user-attachments/assets/3562a872-0302-4749-a4c8-539cba76d67b" />
+<img width="2003" height="735" alt="Image" src="https://github.com/user-attachments/assets/38c0fa23-3f13-4fd1-ba81-766f18bd99b7" />
 
 <대조군과 최종 Model(Ensemble)의 예측 성능 시각화>
-<img width="1587" height="482" alt="Image" src="https://github.com/user-attachments/assets/76ac3dc4-b755-41d2-971e-99a43081f489" />
+<img width="2003" height="735" alt="Image" src="https://github.com/user-attachments/assets/80172f92-3e6a-4976-bb63-724c8bdc890f" />
 
 ### Conclusion(결론)
 
