@@ -13,7 +13,7 @@ https://doi.org/10.1038/s41598-025-23978-w
   2) 군집화를 통해 다수의 세대에 걸친 에너지 사용 패턴을 분류, 시계열 모델에 적용하여 모델 성능 및 분석 업무에 대한 효율성 강화
 
 ### - 프로젝트 개요
-![Uploading {image file name}]()
+![Uploading {image file name}](https://github.com/user-attachments/assets/b0523d46-c7b8-4887-8b46-5b6bde858539)
 
 
 모듈의 구성은 아래와 같음  
