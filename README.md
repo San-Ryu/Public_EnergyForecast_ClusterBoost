@@ -104,8 +104,10 @@ https://doi.org/10.1038/s41598-025-23978-w
 - Best Model : CatBoost, LightGBM 파생 모델  
 
 <대조군과 최종 Model(Ensemble)의 예측 결과 시각화>
+! [Uploading {image file name}](https://github.com/user-attachments/assets/3562a872-0302-4749-a4c8-539cba76d67b)
 
 <대조군과 최종 Model(Ensemble)의 예측 성능 시각화>
+! [Uploading {image file name}](https://github.com/user-attachments/assets/76ac3dc4-b755-41d2-971e-99a43081f489)
 
 ### Conclusion(결론)
 
